@@ -1,4 +1,9 @@
-import './globals.css'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import Footer from './Components/Footer';
+import './globals.css';
+import Navbar from './Components/Navbar';
+import Social from './Social';
+import Skeleton from './Skeleton';
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Skeleton content={children}/>
+      </body>
     </html>
   )
 }
