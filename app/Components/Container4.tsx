@@ -7,9 +7,9 @@ export default function Container4() {
             <h1 className='border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>My</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Portfolio</span>
             <div className="container mt-10 md:flex items-center justify-evenly">
                 <div className='transform hover:-translate-y-2 hover:shadow-xl transition duration-500'>
-                    <div className='flex-col overflow-hidden px-0 border-2 h-48 border-gray-200 rounded-lg items-center'>
+                    <div className='flex-col overflow-hidden border-2 border-gray-200 rounded-lg items-center'>
                         <img className='item w-auto h-36' alt="Pricing UI Image" src='pricingUI.jpg' width={500} height={500}></img>
-                        <div className='w-full h-full transition duration-500 hover:opacity-80 opacity-0 items-end flex justify-center absolute top-0 left-0 bottom-0 bg-gray-300'>
+                        <div className='w-auto h-full transition duration-500 hover:opacity-80 opacity-0 items-center flex justify-center absolute top-0 left-0 bottom-0 bg-gray-300'>
 
                         <div className='flex justify-center gap-2'>
                             <Link target="_blank" href="https://pricingui-mbsy.vercel.app/">

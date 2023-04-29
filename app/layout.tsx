@@ -3,7 +3,7 @@ import Footer from './Components/Footer';
 import './globals.css';
 import Navbar from './Components/Navbar';
 import Social from './Social';
-import Skeleton from './Skeleton';
+import Common from './Common';
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Skeleton content={children}/>
+        <Common content={children}/>
       </body>
     </html>
   )
