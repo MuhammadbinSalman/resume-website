@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Container3() {
     return (
-        <section className=" max-w-md mx-4 sm:max-w-6xl sm:mx-auto mt-32" id='skills'>
-            <h1 className='border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>My</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Skills</span>
+        <section className="lg:max-w-4xl xl:max-w-6xl md:max-w-2xl sm:max-w-lg max-w-md mx-4 sm:mx-auto mt-32" id='skills'>
+            <h1 className='ml-0 lg:ml-2 2xl:ml-0 border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>My</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Skills</span>
             <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-4 mt-9">
-                <div className="col-span-1">
+                <div className="col-span-1 px-0 xl:px-4 2xl:px-0">
                     <div className="bg-white p-2">
                         <div className='flex justify-between around'>
                             <h2 className="text-md font-bold mb-1 text-gray-600">Javascript / Typescript</h2>

@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx'
-function Navbar() {
+function AboutNav() {
   const [toggle, setToggle] = useState(true);
   return (
     <>
@@ -17,11 +17,11 @@ function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-9 flex items-center">
-              <ScrollLink activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-800 hover:text-blue-400">Home</ScrollLink>
+              <Link href={"#"} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-800 hover:text-blue-400">Home</Link>
               <Link href="/About" className="px-1 mx-4 py-2 font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">About</Link>
-              <ScrollLink activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}  className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Skills</ScrollLink>
-              <ScrollLink activeClass="active" to="portfolio" spy={true} smooth={true} offset={-70} duration={500} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Portfolio</ScrollLink>
-              <ScrollLink activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Contact</ScrollLink>
+              <ScrollLink activeClass="active" to="Education" spy={true} smooth={true} offset={-70} duration={500}  className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Education</ScrollLink>
+              <ScrollLink activeClass="active" to="Certificates" spy={true} smooth={true} offset={-70} duration={500} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Certificates</ScrollLink>
+              <ScrollLink activeClass="active" to="" spy={true} smooth={true} offset={-70} duration={500} className="px-1 mx-4 py-2 cursor-pointer font-sans rounded-md text-md font-medium text-gray-700 hover:text-blue-400">Hobbies</ScrollLink>
             </div>
           </div>
           <div className="pr-5 md:hidden " onClick={() => { setToggle(!toggle); console.log(toggle); }}>
@@ -49,4 +49,4 @@ function Navbar() {
 
   )
 }
-export default Navbar;
+export default AboutNav;

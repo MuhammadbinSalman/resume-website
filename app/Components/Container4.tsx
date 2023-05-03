@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Container4() {
     return (
-        <section className="max-w-md mx-4 sm:max-w-6xl sm:mx-auto mt-32" id="portfolio">
-            <h1 className='border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>My</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Portfolio</span>
+        <section className="lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-md mx-4 sm:max-w-lg sm:mx-auto mt-32" id="portfolio">
+            <h1 className='ml-0 lg:ml-2 2xl:ml-0 border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>My</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Portfolio</span>
             <div className="container mt-10 md:flex items-center justify-evenly">
                 <div className='transform hover:-translate-y-2 hover:shadow-xl transition duration-500'>
                     <div className='flex-col overflow-hidden border-2 border-gray-200 rounded-lg items-center'>

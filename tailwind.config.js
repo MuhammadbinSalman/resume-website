@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       boxShadow : {
         'custom-shadow':"0px 2px 9px #E8E8E8",
-        'img-shadow' :'2px 2px 29px #E8E8E8'
+        'img-shadow' :'2px 2px 29px #E8E8E8',
+        'right-about':'5px 13px 12px #888888',
+        'left-about':'-5px 13px 12px #888888'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']},

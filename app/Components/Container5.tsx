@@ -3,11 +3,10 @@ import { FaStar } from 'react-icons/fa'
 export default function Container5() {
   return (
     <>
-      <section className="max-w-6xl mx-auto mt-32" id="contact">
-        <h1 className='border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>Get In</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Touch</span>
-        <div>
-          <div className=" flex items-center mt-10" id="contact">
-            <div className="text-gray-500 px-10 ml-8">
+      <section className="lg:max-w-4xl xl:max-w-6xl md:max-w-2xl sm:max-w-lg max-w-md mx-4 sm:mx-auto mt-32" id="contact">
+        <h1 className='ml-0 lg:ml-2 2xl:ml-0 border-b-4 inline-block border-blue-500 font-bold text-3xl pb-1 text-gray-700 '>Get In</h1><span className='pb-1 border-b-4 inline-block border-gray-200 font-bold text-3xl text-gray-700 pl-1.5'>Touch</span>
+          <div className="items-center lg:flex-row flex-col flex justify-center mt-10" id="contact">
+            <div className="text-gray-500 sm:px-10 sm:ml-8">
               <p className="text-center my-5 text-xl font-medium text-blue-500 ">Leave me a messege</p>
               <form action="https://formspree.io/f/mbjeaqpn" method="POST">
                 <div>
@@ -45,8 +44,8 @@ export default function Container5() {
                 </button>
               </form>
             </div>
-            <div className='h-[400px] w-[480px] bg-blue-500 items-center' >
-              <div className='mt-72'>
+            <div className='h-[380px] w-full mx-0 xl:mx-2 2xl:mx-0 sm:w-[480px] bg-blue-500 items-center' >
+              <div className='sm:mt-72 mt-10'>
                 <div className='flex items-center justify-start p-2'>
                   <FaStar size={30} className='text-gray-400 py-1' />
                   <p className='text-white text-lg'>Gulshan-e-Iqbal, Karachi, Pakistan</p>
@@ -58,7 +57,6 @@ export default function Container5() {
               </div>
             </div>
           </div>
-        </div>
       </section>
     </>
   )
